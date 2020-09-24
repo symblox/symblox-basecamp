@@ -1,40 +1,217 @@
-import Container from "../components/container";
-import MoreStories from "../components/more-stories";
-import HeroPost from "../components/hero-post";
-import Intro from "../components/intro";
+import React, { useEffect } from "react";
 import Layout from "../components/layout";
-import { getAllPostsForHome } from "../lib/api";
-import Head from "next/head";
-import { CMS_NAME } from "../lib/constants";
+import { IntlProvider, FormattedMessage } from "react-intl";
+import en_US from "../language/en_US";
+import zh_CN from "../language/zh_CN";
 
-export default function Index({ allPosts, preview }) {
-    const heroPost = allPosts[0];
-    const morePosts = allPosts.slice(1);
-    return (
-        <>
-            <Layout preview={preview}>
-                <Head>
-                    <title>Next.js Blog Example with {CMS_NAME}</title>
-                </Head>
-                <Container>
-                    <Intro />
-                    {heroPost && (
-                        <HeroPost
-                            title={heroPost.title}
-                            date={heroPost.date}
-                            slug={heroPost.slug}
-                        />
-                    )}
-                    {morePosts.length > 0 && <MoreStories posts={morePosts} />}
-                </Container>
-            </Layout>
-        </>
-    );
-}
+export default function Index() {
+  const [curLanguage, setCurLanguage] = React.useState("EN");
+  useEffect(() => {
+    if (navigator.language === "zh-CN") setCurLanguage("中文");
+  });
 
-export async function getStaticProps({ preview = false }) {
-    const allPosts = await getAllPostsForHome(preview);
-    return {
-        props: { allPosts, preview },
-    };
+  return (
+    <>
+      <Layout>
+        <IntlProvider
+          locale={"en"}
+          messages={curLanguage === "中文" ? zh_CN : en_US}
+        >
+          <div className="page index">
+            <div className="bg">
+              <div className="block-1">
+                <span className="icon point-1"></span>
+                <span className="icon point-2"></span>
+                <span className="icon point-3"></span>
+              </div>
+              <div className="block-2"></div>
+              <div className="block-3"></div>
+            </div>
+            <header>
+              <div className="container hd">
+                <div className="logo"></div>
+                <select
+                  onChange={(event) => setCurLanguage(event.target.value)}
+                  value={curLanguage}
+                  className="language-select"
+                >
+                  <option value={"中文"}>中文</option>
+                  <option value={"EN"}>EN</option>
+                </select>
+              </div>
+            </header>
+            <section className="section section-1">
+              <div className="container">
+                <h1>
+                  <FormattedMessage id="TITLE" />
+                  <br />
+                  <FormattedMessage id="TITLE2" />
+                </h1>
+                <p>
+                  <FormattedMessage id="SUBTITLE" />
+                </p>
+                <button>
+                  <FormattedMessage id="LAUNCH_APP" />
+                </button>
+              </div>
+            </section>
+            <section className="section section-2">
+              <div className="container flex">
+                <div className="text">
+                  <h2>
+                    <FormattedMessage id="CONTENT_TITLE" />
+                  </h2>
+                  <p>
+                    <FormattedMessage id="CONTENT_TEXT" />
+                  </p>
+                </div>
+                <span className="image-2-1"></span>
+              </div>
+            </section>
+            <section className="section section-3">
+              <div className="container">
+                <div className="title">
+                  <FormattedMessage id="CONTENT2_TITLE" />
+                </div>
+                <div className="grid">
+                  <div className="grid-item">
+                    <span className="icon grid-1"></span>
+                    <b>
+                      <FormattedMessage id="CONTENT2_ITEM1_TITLE" />
+                    </b>
+                    <p>
+                      <FormattedMessage id="CONTENT2_ITEM1_TEXT" />
+                    </p>
+                  </div>
+                  <div className="grid-item">
+                    <span className="icon grid-2"></span>
+                    <b>
+                      <FormattedMessage id="CONTENT2_ITEM2_TITLE" />
+                    </b>
+                    <p>
+                      <FormattedMessage id="CONTENT2_ITEM2_TEXT" />
+                    </p>
+                  </div>
+                  <div className="grid-item">
+                    <span className="icon grid-3"></span>
+                    <b>
+                      <FormattedMessage id="CONTENT2_ITEM3_TITLE" />
+                    </b>
+                    <p>
+                      <FormattedMessage id="CONTENT2_ITEM3_TEXT" />
+                    </p>
+                  </div>
+                  <div className="grid-item">
+                    <span className="icon grid-4"></span>
+                    <b>
+                      <FormattedMessage id="CONTENT2_ITEM4_TITLE" />
+                    </b>
+                    <p>
+                      <FormattedMessage id="CONTENT2_ITEM4_TEXT" />
+                    </p>
+                  </div>
+                  <div className="grid-item">
+                    <span className="icon grid-5"></span>
+                    <b>
+                      <FormattedMessage id="CONTENT2_ITEM5_TITLE" />
+                    </b>
+                    <p>
+                      <FormattedMessage id="CONTENT2_ITEM5_TEXT" />
+                    </p>
+                  </div>
+                  <div className="grid-item">
+                    <span className="icon grid-6"></span>
+                    <b>
+                      <FormattedMessage id="CONTENT2_ITEM6_TITLE" />
+                    </b>
+                    <p>
+                      <FormattedMessage id="CONTENT2_ITEM6_TEXT" />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className="section section-4">
+              <div className="container">
+                <div className="title">
+                  <FormattedMessage id="CONTENT3_TITLE" />
+                </div>
+                <div className="app flex">
+                  <div className="app-item">
+                    <span className="app-1"></span>
+                    <p>
+                      <FormattedMessage id="CONTENT3_ITEM1" />
+                    </p>
+                  </div>
+                  <div className="app-item">
+                    <span className="app-2"></span>
+                    <p>
+                      <FormattedMessage id="CONTENT3_ITEM2" />
+                    </p>
+                  </div>
+                  <div className="app-item">
+                    <span className="app-3"></span>
+                    <p>
+                      <FormattedMessage id="CONTENT3_ITEM3" />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className="section section-5">
+              <div className="container">
+                <div className="title">
+                  <FormattedMessage id="CONTENT4_TITLE" />
+                </div>
+                <div className="timeline flex">
+                  <div className="timeline-item">
+                    <div className="time">
+                      <FormattedMessage id="CONTENT4_ITEM1_TITLE" />
+                    </div>
+                    <p>
+                      <FormattedMessage id="CONTENT4_ITEM1" />
+                    </p>
+                  </div>
+                  <div className="timeline-item">
+                    <div className="time">
+                      <FormattedMessage id="CONTENT4_ITEM2_TITLE" />
+                    </div>
+                    <p>
+                      <FormattedMessage id="CONTENT4_ITEM2" />
+                    </p>
+                  </div>
+                  <div className="timeline-item">
+                    <div className="time">
+                      <FormattedMessage id="CONTENT4_ITEM3_TITLE" />
+                    </div>
+                    <p>
+                      <FormattedMessage id="CONTENT4_ITEM3" />
+                    </p>
+                  </div>
+                  <div className="timeline-item">
+                    <div className="time">
+                      <FormattedMessage id="CONTENT4_ITEM4_TITLE" />
+                    </div>
+                    <p>
+                      <FormattedMessage id="CONTENT4_ITEM4" />
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <section className="section section-6">
+              <div className="container">
+                <div className="title">
+                  <FormattedMessage id="CONTENT5_TITLE" />
+                </div>
+                <button>
+                  <FormattedMessage id="READ_WHITE_PAPER" />
+                </button>
+              </div>
+            </section>
+          </div>
+        </IntlProvider>
+      </Layout>
+    </>
+  );
 }
