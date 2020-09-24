@@ -5,9 +5,15 @@ import en_US from "../language/en_US";
 import zh_CN from "../language/zh_CN";
 
 export default function Index() {
-  const [curLanguage, setCurLanguage] = React.useState("EN");
+  const [curLanguage, setCurLanguage] = React.useState();
   useEffect(() => {
-    if (navigator.language === "zh-CN") setCurLanguage("中文");
+    if (!curLanguage) {
+      if (navigator.language === "zh-CN") {
+        setCurLanguage("中文");
+      } else {
+        setCurLanguage("EN");
+      }
+    }
   });
 
   return (
@@ -30,14 +36,14 @@ export default function Index() {
             <header>
               <div className="container hd">
                 <div className="logo"></div>
-                <select
-                  onChange={(event) => setCurLanguage(event.target.value)}
-                  value={curLanguage}
-                  className="language-select"
+                <div
+                  className="account"
+                  onClick={() =>
+                    setCurLanguage(curLanguage === "中文" ? "EN" : "中文")
+                  }
                 >
-                  <option value={"中文"}>中文</option>
-                  <option value={"EN"}>EN</option>
-                </select>
+                  <button>{curLanguage === "中文" ? "EN" : "中文"}</button>
+                </div>
               </div>
             </header>
             <section className="section section-1">

@@ -6,7 +6,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", "PingFangSC-Regular", "Microsoft Yahei", sans-serif;
 }
 
 :link,
