@@ -34,8 +34,8 @@ const en_US = {
     CONTENT4_ITEM1: "Research and prototype development.",
     CONTENT4_ITEM2:
         "Alpha protocol development and bootstrapping the Reserve liquidity.",
-    CONTENT4_ITEM3: "Alpha protocol v1 publish.",
-    CONTENT4_ITEM4: "DApps development and mainnet launch.",
+    CONTENT4_ITEM3: "Publish of alpha protocol v1.",
+    CONTENT4_ITEM4: "DApps development and launch of mainnet.",
     CONTENT4_ITEM1_TITLE: "Q3 2020",
     CONTENT4_ITEM2_TITLE: "Q4 2020",
     CONTENT4_ITEM3_TITLE: "Q1 2021",

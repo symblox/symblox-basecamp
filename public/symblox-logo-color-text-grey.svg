@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1172px" height="240px" viewBox="0 0 1172 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>syxAsset 8@sym</title>
+    <defs>
+        <linearGradient x1="-46.0059636%" y1="77.8261947%" x2="84.7646604%" y2="35.2543612%" id="linearGradient-1">
+            <stop stop-color="#FF3A33" offset="0%"></stop>
+            <stop stop-color="#FC06C6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-4.03136389%" y1="65.2912595%" x2="67.2980674%" y2="40.4275619%" id="linearGradient-2">
+            <stop stop-color="#42D9FE" offset="0%"></stop>
+            <stop stop-color="#2872FA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="syxAsset-8@sym">
+            <g id="Group-19" transform="translate(0.000000, 41.000000)">
+                <polygon id="Path-9" fill="url(#linearGradient-1)" points="78.5296296 0.134417123 0 98.8133877 74.2998148 98.8133877 152.593519 0.134417123"></polygon>
+                <polygon id="Path" fill="url(#linearGradient-2)" points="107.396852 57.6985501 28.8672222 156.394323 103.167037 156.394323 181.460741 57.6985501"></polygon>
+            </g>
+            <text id="SYMBLOX" fill="#7B7B7B" fill-rule="nonzero" font-family="Helvetica" font-size="200" font-weight="normal">
+                <tspan x="205" y="194">SYMBLOX</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
