@@ -188,7 +188,8 @@ footer .r p {
     margin-top: 16px;
     width: 100%;
     padding-left: 20px;
-    background: #333;
+    background: black;
+    opacity: 0.7;
   }
   .menu-header {
     display: none;
