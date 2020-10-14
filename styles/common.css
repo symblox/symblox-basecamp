@@ -1,23 +1,23 @@
 html,
 body {
-  background: #1c1f4e;
-  font-size: 14px;
-  color: #fff;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
-  font-family: "Lato", "PingFangSC-Regular", "Microsoft Yahei", sans-serif;
+    background: #1c1f4e;
+    font-size: 14px;
+    color: #fff;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: "Lato", "PingFangSC-Regular", "Microsoft Yahei", sans-serif;
 }
 
 :link,
 :visited {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
 ul,
 ol {
-  list-style: none;
+    list-style: none;
 }
 
 ul,
@@ -37,126 +37,126 @@ p,
 blockquote,
 fieldset,
 input {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 a img,
 :link img,
 :visited img {
-  border: none;
+    border: none;
 }
 
 address {
-  font-style: normal;
+    font-style: normal;
 }
 
 div,
 span,
 button,
 i {
-  outline: none;
+    outline: none;
 }
 
 .container {
-  max-width: 1100px;
-  margin: 0 auto;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 button {
-  background: linear-gradient(90deg, #1aaaff 37.17%, #5eedfd 103.98%);
-  box-shadow: 0px 0px 15px rgba(45, 189, 255, 0.64);
-  border-radius: 50px;
-  border: none;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
-  color: #fff;
-  padding: 10px 38px;
-  cursor: pointer;
+    background: linear-gradient(90deg, #1aaaff 37.17%, #5eedfd 103.98%);
+    box-shadow: 0px 0px 15px rgba(45, 189, 255, 0.64);
+    border-radius: 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 10px 38px;
+    cursor: pointer;
 }
 
 header {
-  padding: 32px 0;
-  position: relative;
-  z-index: 2;
+    padding: 32px 0;
+    position: relative;
+    z-index: 2;
 }
 header .hd {
-  display: flex;
-  justify-items: center;
-  align-items: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 .account {
-  flex: 1;
-  text-align: right;
+    flex: 1;
+    text-align: right;
 }
 .account .link {
-  font-size: 16px;
-  line-height: 20px;
-  color: #e5e5e5;
-  font-weight: bold;
-  margin-right: 35px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #e5e5e5;
+    font-weight: bold;
+    margin-right: 35px;
 }
 .logo {
-  width: 182px;
-  height: 35px;
-  background: url("../public/symblox-logo.svg") no-repeat center;
-  background-size: cover;
+    width: 182px;
+    height: 35px;
+    background: url("../public/symblox-logo.svg") no-repeat center;
+    background-size: cover;
 }
 
 .flex {
-  display: flex;
-  justify-items: center;
-  align-items: center;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
 
 .icon {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
 }
 
 footer {
-  margin-top: 0px;
-  padding: 45px 0;
-  background: #14163c;
+    margin-top: 0px;
+    padding: 45px 0;
+    background: #14163c;
 }
 footer .r {
-  text-align: right;
-  flex: 1;
+    text-align: right;
+    flex: 1;
 }
 footer .r .menu a {
-  font-weight: bold;
-  font-size: 16px;
-  margin-left: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 30px;
 }
 footer .r p {
-  font-weight: normal;
-  font-size: 11px;
-  margin-top: 8px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+    font-weight: normal;
+    font-size: 11px;
+    margin-top: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .page-bar {
-  -moz-box-flex: 3;
-  flex: 3;
-  text-align: right;
+    -moz-box-flex: 3;
+    flex: 3;
+    text-align: right;
 }
 
 .header-bar {
-  -moz-box-flex: 1;
-  flex: 1;
-  text-align: right;
+    -moz-box-flex: 1;
+    flex: 1;
+    text-align: right;
 }
 
-.page {
-  -moz-box-flex: 1;
-  flex: 1;
-  text-align: right;
-  padding-right: 16px;
-  font-weight: bold;
-  font-size: 16px;
+.menu-item {
+    -moz-box-flex: 1;
+    flex: 1;
+    text-align: right;
+    padding-right: 36px;
+    font-weight: bold;
+    font-size: 16px;
 }
