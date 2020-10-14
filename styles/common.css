@@ -157,7 +157,7 @@ footer .r p {
 }
 
 @media screen and (min-width: 600px) {
-  .menu {
+  .menu-header {
     display: inline-block;
   }
 
@@ -169,25 +169,46 @@ footer .r p {
     font-weight: bold;
     font-size: 16px;
   }
+
+  .menu-icon {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
+  .section-1 {
+    margin-top: -100px !important;
+  }
   .logo {
     width: 140px !important;
     height: 26px !important;
     margin-top: 6px !important;
   }
-  .menu {
-    position: absolute;
-    top: 50px;
+  .mobile-menu-header {
+    margin-top: 16px;
     width: 100%;
-    text-align: center;
-    display: block ruby;
+    padding-left: 20px;
+    background: #333;
+  }
+  .menu-header {
+    display: none;
   }
 
   .menu-item {
     font-weight: bold;
     font-size: 16px;
     padding: 5px;
+    padding: 16px 0;
+    display: block;
+  }
+
+  .menu-icon {
+    margin-left: 12px;
+    position: relative;
+    top: 4px;
+  }
+
+  .menu-icon .fa {
+    font-size: 28px;
   }
 }

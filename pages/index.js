@@ -7,6 +7,8 @@ import zh_CN from "../language/zh_CN";
 export default function Index() {
   const [curLanguage, setCurLanguage] = React.useState();
   const [countdown, setCountdown] = React.useState();
+  const [isOpen, openMenu] = React.useState(false);
+
   useEffect(() => {
     if (!curLanguage) {
       if (navigator.language === "zh-CN") {
@@ -51,45 +53,47 @@ export default function Index() {
               <div className="container hd">
                 <div className="header-bar">
                   <div className="logo"></div>
-                  {curLanguage === "中文" ? (
-                    <div className="menu">
-                      {" "}
-                      <a
-                        className="menu-item"
-                        href="https://shimo.im/docs/DgHPyCWcr9TR6H6Q/"
-                        target="_blank"
-                      >
-                        <FormattedMessage id="PAGE1" />
-                      </a>
-                      <a
-                        className="menu-item"
-                        href="https://shimo.im/docs/RxpqvXdPVrhJqwkt/"
-                        target="_blank"
-                      >
-                        <FormattedMessage id="PAGE2" />
-                      </a>
-                      <a
-                        className="menu-item"
-                        href="https://shimo.im/docs/3jppqrHD6WhQ98Dv/"
-                        target="_blank"
-                      >
-                        <FormattedMessage id="PAGE3" />
-                      </a>
-                    </div>
-                  ) : (
-                    <div className="menu">
-                      {" "}
-                      <a className="menu-item" href="#" target="_blank">
-                        <FormattedMessage id="PAGE1" />
-                      </a>
-                      <a className="menu-item" href="#" target="_blank">
-                        <FormattedMessage id="PAGE2" />
-                      </a>
-                      <a className="menu-item" href="#" target="_blank">
-                        <FormattedMessage id="PAGE3" />
-                      </a>
-                    </div>
-                  )}
+                  <span className="menu-header">
+                    {curLanguage === "中文" ? (
+                      <>
+                        {" "}
+                        <a
+                          className="menu-item"
+                          href="https://shimo.im/docs/DgHPyCWcr9TR6H6Q/"
+                          target="_blank"
+                        >
+                          <FormattedMessage id="PAGE1" />
+                        </a>
+                        <a
+                          className="menu-item"
+                          href="https://shimo.im/docs/RxpqvXdPVrhJqwkt/"
+                          target="_blank"
+                        >
+                          <FormattedMessage id="PAGE2" />
+                        </a>
+                        <a
+                          className="menu-item"
+                          href="https://shimo.im/docs/3jppqrHD6WhQ98Dv/"
+                          target="_blank"
+                        >
+                          <FormattedMessage id="PAGE3" />
+                        </a>
+                      </>
+                    ) : (
+                      <>
+                        {" "}
+                        <a className="menu-item" href="#" target="_blank">
+                          <FormattedMessage id="PAGE1" />
+                        </a>
+                        <a className="menu-item" href="#" target="_blank">
+                          <FormattedMessage id="PAGE2" />
+                        </a>
+                        <a className="menu-item" href="#" target="_blank">
+                          <FormattedMessage id="PAGE3" />
+                        </a>
+                      </>
+                    )}
+                  </span>
                   <a
                     className="account"
                     onClick={() =>
@@ -98,7 +102,59 @@ export default function Index() {
                   >
                     <button>{curLanguage === "中文" ? "EN" : "中文"}</button>
                   </a>
+                  <a
+                    className="menu-icon"
+                    onClick={() => {
+                      openMenu(!isOpen);
+                    }}
+                  >
+                    <i className="fa fa-bars"></i>
+                  </a>
                 </div>
+              </div>
+              <div
+                className="mobile-menu-header"
+                style={{ display: isOpen ? "block" : "none" }}
+              >
+                {curLanguage === "中文" ? (
+                  <>
+                    {" "}
+                    <a
+                      className="menu-item"
+                      href="https://shimo.im/docs/DgHPyCWcr9TR6H6Q/"
+                      target="_blank"
+                    >
+                      <FormattedMessage id="PAGE1" />
+                    </a>
+                    <a
+                      className="menu-item"
+                      href="https://shimo.im/docs/RxpqvXdPVrhJqwkt/"
+                      target="_blank"
+                    >
+                      <FormattedMessage id="PAGE2" />
+                    </a>
+                    <a
+                      className="menu-item"
+                      href="https://shimo.im/docs/3jppqrHD6WhQ98Dv/"
+                      target="_blank"
+                    >
+                      <FormattedMessage id="PAGE3" />
+                    </a>
+                  </>
+                ) : (
+                  <>
+                    {" "}
+                    <a className="menu-item" href="#" target="_blank">
+                      <FormattedMessage id="PAGE1" />
+                    </a>
+                    <a className="menu-item" href="#" target="_blank">
+                      <FormattedMessage id="PAGE2" />
+                    </a>
+                    <a className="menu-item" href="#" target="_blank">
+                      <FormattedMessage id="PAGE3" />
+                    </a>
+                  </>
+                )}
               </div>
             </header>
             <section className="section section-1">

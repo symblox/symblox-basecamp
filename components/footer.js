@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="container flex">
-        <div className="logo"></div>
+        <div className="logo" style={{ position: "relative" }}></div>
         <div className="r">
           <div className="menu">
             <a href="https://twitter.com/symbloxdefi" target="_blank">
