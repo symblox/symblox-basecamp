@@ -89,13 +89,13 @@ export default function Index() {
                                                 >
                                                     <FormattedMessage id="PAGE1" />
                                                 </a>
-                                                {/* <a
+                                                <a
                                                     className="menu-item"
-                                                    href="#"
+                                                    href="https://docs.google.com/document/d/1FnsTQRzOcX9_8pJBw0kMh83yEcnbz1f7Ag1uQlVt2uo/edit?usp=sharing"
                                                     target="_blank"
                                                 >
                                                     <FormattedMessage id="PAGE2" />
-                                                </a> */}
+                                                </a>
                                                 <a
                                                     className="menu-item"
                                                     href="https://hackmd.io/@Symblox/BkGxZBNwv"
@@ -171,13 +171,13 @@ export default function Index() {
                                         >
                                             <FormattedMessage id="PAGE1" />
                                         </a>
-                                        {/* <a
+                                        <a
                                             className="menu-item"
-                                            href="#"
+                                            href="https://docs.google.com/document/d/1FnsTQRzOcX9_8pJBw0kMh83yEcnbz1f7Ag1uQlVt2uo/edit?usp=sharing"
                                             target="_blank"
                                         >
                                             <FormattedMessage id="PAGE2" />
-                                        </a> */}
+                                        </a>
                                         <a
                                             className="menu-item"
                                             href="https://hackmd.io/@Symblox/BkGxZBNwv"
