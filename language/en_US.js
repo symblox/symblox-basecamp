@@ -43,7 +43,7 @@ const en_US = {
     READ_WHITE_PAPER: "Read the white paper",
     CONTENT5_TITLE: "Partner",
     CONTENT6_TITLE: "Wallet download",
-    PAGE1: "Liquidity Mining",
+    PAGE1: "Liquidity Mining Guide",
     PAGE2: "Wallet Users' Guide",
     PAGE3: "Q&A",
 };

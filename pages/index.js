@@ -166,21 +166,21 @@ export default function Index() {
                                         {" "}
                                         <a
                                             className="menu-item"
-                                            href="#"
+                                            href="https://hackmd.io/@Symblox/BkChukUvw"
                                             target="_blank"
                                         >
                                             <FormattedMessage id="PAGE1" />
                                         </a>
-                                        <a
+                                        {/* <a
                                             className="menu-item"
                                             href="#"
                                             target="_blank"
                                         >
                                             <FormattedMessage id="PAGE2" />
-                                        </a>
+                                        </a> */}
                                         <a
                                             className="menu-item"
-                                            href="#"
+                                            href="https://hackmd.io/@Symblox/BkGxZBNwv"
                                             target="_blank"
                                         >
                                             <FormattedMessage id="PAGE3" />
