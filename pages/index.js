@@ -66,7 +66,7 @@ export default function Index() {
                                                 </a>
                                                 <a
                                                     className="menu-item"
-                                                    href="https://shimo.im/docs/RxpqvXdPVrhJqwkt/"
+                                                    href="https://shimo.im/docs/YVPKjdCKdg69jX3R/"
                                                     target="_blank"
                                                 >
                                                     <FormattedMessage id="PAGE2" />
@@ -148,7 +148,7 @@ export default function Index() {
                                         </a>
                                         <a
                                             className="menu-item"
-                                            href="https://shimo.im/docs/RxpqvXdPVrhJqwkt/"
+                                            href="https://shimo.im/docs/YVPKjdCKdg69jX3R/"
                                             target="_blank"
                                         >
                                             <FormattedMessage id="PAGE2" />
