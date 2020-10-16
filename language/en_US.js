@@ -1,5 +1,5 @@
 const en_US = {
-    LAUNCH_APP: "COMING SOON",
+    LAUNCH_APP: "LAUNCH DAPP",
     TITLE: "Bringing real-world assets",
     TITLE2: "to the blockchain",
     SUBTITLE:

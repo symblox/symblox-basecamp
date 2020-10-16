@@ -1,5 +1,5 @@
 const zh_CN = {
-    LAUNCH_APP: "敬请期待",
+    LAUNCH_APP: "打开 DAPP 应用",
     TITLE: "连接现实资产",
     TITLE2: "到区块链世界的桥梁",
     SUBTITLE: "Symblox 是一个区块链上的去中心化合成资产发行和交易协议。",
