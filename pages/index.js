@@ -62,21 +62,28 @@ export default function Index() {
                                                     href="https://shimo.im/docs/DgHPyCWcr9TR6H6Q/"
                                                     target="_blank"
                                                 >
-                                                    <FormattedMessage id="PAGE1" />
+                                                    <FormattedMessage id="MENU_ITEM1" />
                                                 </a>
                                                 <a
                                                     className="menu-item"
                                                     href="https://shimo.im/docs/YVPKjdCKdg69jX3R/"
                                                     target="_blank"
                                                 >
-                                                    <FormattedMessage id="PAGE2" />
+                                                    <FormattedMessage id="MENU_ITEM2" />
                                                 </a>
                                                 <a
                                                     className="menu-item"
                                                     href="https://shimo.im/docs/3jppqrHD6WhQ98Dv/"
                                                     target="_blank"
                                                 >
-                                                    <FormattedMessage id="PAGE3" />
+                                                    <FormattedMessage id="MENU_ITEM3" />
+                                                </a>
+                                                <a
+                                                    className="menu-item"
+                                                    href="https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
+                                                    target="_blank"
+                                                >
+                                                    <FormattedMessage id="MENU_ITEM4" />
                                                 </a>
                                             </>
                                         ) : (
@@ -87,21 +94,28 @@ export default function Index() {
                                                     href="https://hackmd.io/@Symblox/BkChukUvw"
                                                     target="_blank"
                                                 >
-                                                    <FormattedMessage id="PAGE1" />
+                                                    <FormattedMessage id="MENU_ITEM1" />
                                                 </a>
                                                 <a
                                                     className="menu-item"
                                                     href="https://docs.google.com/document/d/1FnsTQRzOcX9_8pJBw0kMh83yEcnbz1f7Ag1uQlVt2uo/edit?usp=sharing"
                                                     target="_blank"
                                                 >
-                                                    <FormattedMessage id="PAGE2" />
+                                                    <FormattedMessage id="MENU_ITEM2" />
                                                 </a>
                                                 <a
                                                     className="menu-item"
                                                     href="https://hackmd.io/@Symblox/BkGxZBNwv"
                                                     target="_blank"
                                                 >
-                                                    <FormattedMessage id="PAGE3" />
+                                                    <FormattedMessage id="MENU_ITEM3" />
+                                                </a>
+                                                <a
+                                                    className="menu-item"
+                                                    href="https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
+                                                    target="_blank"
+                                                >
+                                                    <FormattedMessage id="MENU_ITEM4" />
                                                 </a>
                                             </>
                                         )}
@@ -144,21 +158,28 @@ export default function Index() {
                                             href="https://shimo.im/docs/DgHPyCWcr9TR6H6Q/"
                                             target="_blank"
                                         >
-                                            <FormattedMessage id="PAGE1" />
+                                            <FormattedMessage id="MENU_ITEM1" />
                                         </a>
                                         <a
                                             className="menu-item"
                                             href="https://shimo.im/docs/YVPKjdCKdg69jX3R/"
                                             target="_blank"
                                         >
-                                            <FormattedMessage id="PAGE2" />
+                                            <FormattedMessage id="MENU_ITEM2" />
                                         </a>
                                         <a
                                             className="menu-item"
                                             href="https://shimo.im/docs/3jppqrHD6WhQ98Dv/"
                                             target="_blank"
                                         >
-                                            <FormattedMessage id="PAGE3" />
+                                            <FormattedMessage id="MENU_ITEM3" />
+                                        </a>
+                                        <a
+                                            className="menu-item"
+                                            href="https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
+                                            target="_blank"
+                                        >
+                                            <FormattedMessage id="MENU_ITEM4" />
                                         </a>
                                     </>
                                 ) : (
@@ -169,21 +190,28 @@ export default function Index() {
                                             href="https://hackmd.io/@Symblox/BkChukUvw"
                                             target="_blank"
                                         >
-                                            <FormattedMessage id="PAGE1" />
+                                            <FormattedMessage id="MENU_ITEM1" />
                                         </a>
                                         <a
                                             className="menu-item"
                                             href="https://docs.google.com/document/d/1FnsTQRzOcX9_8pJBw0kMh83yEcnbz1f7Ag1uQlVt2uo/edit?usp=sharing"
                                             target="_blank"
                                         >
-                                            <FormattedMessage id="PAGE2" />
+                                            <FormattedMessage id="MENU_ITEM2" />
                                         </a>
                                         <a
                                             className="menu-item"
                                             href="https://hackmd.io/@Symblox/BkGxZBNwv"
                                             target="_blank"
                                         >
-                                            <FormattedMessage id="PAGE3" />
+                                            <FormattedMessage id="MENU_ITEM3" />
+                                        </a>
+                                        <a
+                                            className="menu-item"
+                                            href="https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
+                                            target="_blank"
+                                        >
+                                            <FormattedMessage id="MENU_ITEM4" />
                                         </a>
                                     </>
                                 )}
@@ -200,12 +228,12 @@ export default function Index() {
                                     <FormattedMessage id="SUBTITLE" />
                                 </p>
                                 <a
-                                  className="menu-item"
-                                  href="https://app.symblox.io/"
+                                    className="menu-item"
+                                    href="https://app.symblox.io/"
                                 >
-                                  <button>
-                                    <FormattedMessage id="LAUNCH_APP" />
-                                  </button>
+                                    <button>
+                                        <FormattedMessage id="LAUNCH_APP" />
+                                    </button>
                                 </a>
                             </div>
                         </section>

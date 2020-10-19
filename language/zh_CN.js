@@ -40,9 +40,10 @@ const zh_CN = {
     READ_WHITE_PAPER: "阅读白皮书",
     CONTENT5_TITLE: "合作伙伴",
     CONTENT6_TITLE: "钱包下载",
-    PAGE1: "流动性挖矿介绍",
-    PAGE2: "钱包使用指南",
-    PAGE3: "常见问题和回答",
+    MENU_ITEM1: "流动性挖矿介绍",
+    MENU_ITEM2: "使用指南",
+    MENU_ITEM3: "常见问题回答",
+    MENU_ITEM4: "合约审计报告",
 };
 
 export default zh_CN;

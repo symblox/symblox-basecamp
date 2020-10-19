@@ -42,10 +42,11 @@ const en_US = {
     CONTENT4_ITEM4_TITLE: "Q2 2021",
     READ_WHITE_PAPER: "Read the white paper",
     CONTENT5_TITLE: "Partner",
-    CONTENT6_TITLE: "Wallet download",
-    PAGE1: "Liquidity Mining Guide",
-    PAGE2: "Wallet Users' Guide",
-    PAGE3: "Q&A",
+    CONTENT6_TITLE: "Wallet Download",
+    MENU_ITEM1: "Liquidity Mining Guide",
+    MENU_ITEM2: "User Guide",
+    MENU_ITEM3: "Q&A",
+    MENU_ITEM4: "Audit Report",
 };
 
 export default en_US;
