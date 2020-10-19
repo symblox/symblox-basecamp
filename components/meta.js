@@ -3,7 +3,7 @@ import Head from "next/head";
 export default function Meta() {
   return (
     <Head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+      {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180843030-1"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
