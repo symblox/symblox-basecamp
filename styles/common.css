@@ -168,10 +168,20 @@ footer .r p {
     padding-right: 36px;
     font-weight: bold;
     font-size: 16px;
+    display: inline-flex;
+    color: white;
+  }
+
+  .dropdown-menu a {
+    color: black;
   }
 
   .menu-icon {
     display: none;
+  }
+
+  .mobile-menu-header {
+    display: none !important;
   }
 }
 
@@ -201,12 +211,19 @@ footer .r p {
     padding: 5px;
     padding: 16px 0;
     display: block;
+    color: white;
   }
 
-  .menu-icon {
+  .menu-item.menu-sub-item {
+    padding-left: 32px;
+  }
+
+  .menu-icon,
+  .menu-icon:hover {
     margin-left: 12px;
     position: relative;
     top: 4px;
+    color: white;
   }
 
   .menu-icon .fa {

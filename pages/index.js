@@ -1,12 +1,12 @@
 import React, { useEffect } from "react";
 import Layout from "../components/layout";
 import { IntlProvider, FormattedMessage } from "react-intl";
+import Dropdown from 'react-bootstrap/Dropdown';
 import en_US from "../language/en_US";
 import zh_CN from "../language/zh_CN";
 
 export default function Index() {
     const [curLanguage, setCurLanguage] = React.useState();
-    const [countdown, setCountdown] = React.useState();
     const [isOpen, openMenu] = React.useState(false);
 
     useEffect(() => {
@@ -17,20 +17,7 @@ export default function Index() {
                 setCurLanguage("EN");
             }
         }
-
-        // const endDate = new Date("2020-10-16T15:00");
-
-        // setInterval(() => {
-        //   const now = new Date();
-        //   const diff = endDate - now;
-        //   const hours = Math.abs(parseInt(diff / 1000 / 3600));
-        //   const minutes = Math.abs(parseInt(diff / 1000 / 60) - hours * 3600);
-        //   const seconds = Math.abs(parseInt(diff / 1000) - minutes * 60);
-        //   setCountdown(`${hours}:${minutes}:${seconds}`);
-        // }, 1000);
     });
-
-    //console.log(countdown);
 
     return (
         <>
@@ -54,71 +41,58 @@ export default function Index() {
                                 <div className="header-bar">
                                     <div className="logo"></div>
                                     <span className="menu-header">
-                                        {curLanguage === "中文" ? (
-                                            <>
+                                        <>
                                                 {" "}
+                                                <Dropdown className="menu-item">
+                                                    <Dropdown.Toggle 
+                                                    as={'span'}
+                                                    variant="success" id="dropdown-basic">
+                                                       <FormattedMessage id="MENU_ITEM1" />
+                                                    </Dropdown.Toggle>
+                                                    <Dropdown.Menu>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/v3R86WVVvyWQQRPR/":""}>
+                                                            <FormattedMessage id="MENU_ITEM1_1" />
+                                                        </Dropdown.Item>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/DgHPyCWcr9TR6H6Q/":""}>
+                                                            <FormattedMessage id="MENU_ITEM1_2" />
+                                                        </Dropdown.Item>
+                                                    </Dropdown.Menu>
+                                                </Dropdown>
+                                                <Dropdown className="menu-item">
+                                                    <Dropdown.Toggle 
+                                                    as={'span'}
+                                                    variant="success" id="dropdown-basic">
+                                                       <FormattedMessage id="MENU_ITEM2" />
+                                                    </Dropdown.Toggle>
+                                                    <Dropdown.Menu>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/YVPKjdCKdg69jX3R/":""}>
+                                                            <FormattedMessage id="MENU_ITEM2_1" />
+                                                        </Dropdown.Item>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/Vw5XybChNyk6Ms6g/":""}>
+                                                            <FormattedMessage id="MENU_ITEM2_2" /></Dropdown.Item>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/RxpqvXdPVrhJqwkt/":""}>
+                                                            <FormattedMessage id="MENU_ITEM2_3" />
+                                                        </Dropdown.Item>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/rkRYqqgCyYytChdy/":""}>
+                                                            <FormattedMessage id="MENU_ITEM2_4" />
+                                                        </Dropdown.Item>
+                                                    </Dropdown.Menu>
+                                                </Dropdown>
                                                 <a
                                                     className="menu-item"
-                                                    href="https://shimo.im/docs/DgHPyCWcr9TR6H6Q/"
-                                                    target="_blank"
-                                                >
-                                                    <FormattedMessage id="MENU_ITEM1" />
-                                                </a>
-                                                <a
-                                                    className="menu-item"
-                                                    href="https://shimo.im/docs/YVPKjdCKdg69jX3R/"
-                                                    target="_blank"
-                                                >
-                                                    <FormattedMessage id="MENU_ITEM2" />
-                                                </a>
-                                                <a
-                                                    className="menu-item"
-                                                    href="https://shimo.im/docs/3jppqrHD6WhQ98Dv/"
+                                                    href={curLanguage === "中文"?"https://shimo.im/docs/3jppqrHD6WhQ98Dv/":"https://hackmd.io/@Symblox/BkGxZBNwv"}
                                                     target="_blank"
                                                 >
                                                     <FormattedMessage id="MENU_ITEM3" />
                                                 </a>
                                                 <a
                                                     className="menu-item"
-                                                    href="https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
+                                                    href={curLanguage === "中文"?"https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf":"https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"}
                                                     target="_blank"
                                                 >
                                                     <FormattedMessage id="MENU_ITEM4" />
                                                 </a>
                                             </>
-                                        ) : (
-                                            <>
-                                                {" "}
-                                                <a
-                                                    className="menu-item"
-                                                    href="https://hackmd.io/@Symblox/BkChukUvw"
-                                                    target="_blank"
-                                                >
-                                                    <FormattedMessage id="MENU_ITEM1" />
-                                                </a>
-                                                <a
-                                                    className="menu-item"
-                                                    href="https://docs.google.com/document/d/1FnsTQRzOcX9_8pJBw0kMh83yEcnbz1f7Ag1uQlVt2uo/edit?usp=sharing"
-                                                    target="_blank"
-                                                >
-                                                    <FormattedMessage id="MENU_ITEM2" />
-                                                </a>
-                                                <a
-                                                    className="menu-item"
-                                                    href="https://hackmd.io/@Symblox/BkGxZBNwv"
-                                                    target="_blank"
-                                                >
-                                                    <FormattedMessage id="MENU_ITEM3" />
-                                                </a>
-                                                <a
-                                                    className="menu-item"
-                                                    href="https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
-                                                    target="_blank"
-                                                >
-                                                    <FormattedMessage id="MENU_ITEM4" />
-                                                </a>
-                                            </>
-                                        )}
                                     </span>
                                     <a
                                         className="account"
@@ -150,71 +124,75 @@ export default function Index() {
                                 className="mobile-menu-header"
                                 style={{ display: isOpen ? "block" : "none" }}
                             >
-                                {curLanguage === "中文" ? (
-                                    <>
+                                <>
                                         {" "}
                                         <a
                                             className="menu-item"
-                                            href="https://shimo.im/docs/DgHPyCWcr9TR6H6Q/"
-                                            target="_blank"
                                         >
                                             <FormattedMessage id="MENU_ITEM1" />
                                         </a>
                                         <a
-                                            className="menu-item"
-                                            href="https://shimo.im/docs/YVPKjdCKdg69jX3R/"
+                                            className="menu-item menu-sub-item"
+                                            href={curLanguage === "中文"?"https://shimo.im/docs/v3R86WVVvyWQQRPR/":""}
                                             target="_blank"
+                                        >
+                                            <FormattedMessage id="MENU_ITEM1_1" />
+                                        </a>
+                                        <a
+                                            className="menu-item menu-sub-item"
+                                            href={curLanguage === "中文"?"https://shimo.im/docs/DgHPyCWcr9TR6H6Q/":""}
+                                            target="_blank"
+                                        >
+                                            <FormattedMessage id="MENU_ITEM1_2" />
+                                        </a>  
+                                        <a
+                                            className="menu-item"
                                         >
                                             <FormattedMessage id="MENU_ITEM2" />
                                         </a>
                                         <a
+                                            className="menu-item menu-sub-item"
+                                            href={curLanguage === "中文"?"https://shimo.im/docs/YVPKjdCKdg69jX3R/":""}
+                                            target="_blank"
+                                        >
+                                            <FormattedMessage id="MENU_ITEM2_1" />
+                                        </a>
+                                        <a
+                                            className="menu-item menu-sub-item"
+                                            href={curLanguage === "中文"?"https://shimo.im/docs/Vw5XybChNyk6Ms6g/":""}
+                                            target="_blank"
+                                        >
+                                            <FormattedMessage id="MENU_ITEM2_2" />
+                                        </a>
+                                        <a
+                                            className="menu-item menu-sub-item"
+                                            href={curLanguage === "中文"?"https://shimo.im/docs/RxpqvXdPVrhJqwkt/":""}
+                                            target="_blank"
+                                        >
+                                            <FormattedMessage id="MENU_ITEM2_3" />
+                                        </a>
+                                        <a
+                                            className="menu-item menu-sub-item"
+                                            href={curLanguage === "中文"?"https://shimo.im/docs/rkRYqqgCyYytChdy/":""}
+                                            target="_blank"
+                                        >
+                                            <FormattedMessage id="MENU_ITEM2_4" />
+                                        </a>
+                                        <a
                                             className="menu-item"
-                                            href="https://shimo.im/docs/3jppqrHD6WhQ98Dv/"
+                                            href={curLanguage === "中文"?"https://shimo.im/docs/3jppqrHD6WhQ98Dv/":"https://hackmd.io/@Symblox/BkGxZBNwv"}
                                             target="_blank"
                                         >
                                             <FormattedMessage id="MENU_ITEM3" />
                                         </a>
                                         <a
                                             className="menu-item"
-                                            href="https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
+                                            href={curLanguage === "中文"?"https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf":"https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"}
                                             target="_blank"
                                         >
                                             <FormattedMessage id="MENU_ITEM4" />
                                         </a>
                                     </>
-                                ) : (
-                                    <>
-                                        {" "}
-                                        <a
-                                            className="menu-item"
-                                            href="https://hackmd.io/@Symblox/BkChukUvw"
-                                            target="_blank"
-                                        >
-                                            <FormattedMessage id="MENU_ITEM1" />
-                                        </a>
-                                        <a
-                                            className="menu-item"
-                                            href="https://docs.google.com/document/d/1FnsTQRzOcX9_8pJBw0kMh83yEcnbz1f7Ag1uQlVt2uo/edit?usp=sharing"
-                                            target="_blank"
-                                        >
-                                            <FormattedMessage id="MENU_ITEM2" />
-                                        </a>
-                                        <a
-                                            className="menu-item"
-                                            href="https://hackmd.io/@Symblox/BkGxZBNwv"
-                                            target="_blank"
-                                        >
-                                            <FormattedMessage id="MENU_ITEM3" />
-                                        </a>
-                                        <a
-                                            className="menu-item"
-                                            href="https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
-                                            target="_blank"
-                                        >
-                                            <FormattedMessage id="MENU_ITEM4" />
-                                        </a>
-                                    </>
-                                )}
                             </div>
                         </header>
                         <section className="section section-1">

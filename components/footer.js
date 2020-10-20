@@ -25,7 +25,7 @@ export default function Footer() {
                   background: "#49475F",
                   borderRadius: "50%",
                   padding: "6px",
-                  height: "27px",
+                  height: "39px",
                 }}
               />
             </a>
