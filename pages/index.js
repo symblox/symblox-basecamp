@@ -126,11 +126,11 @@ export default function Index() {
                             >
                                 <>
                                         {" "}
-                                        <a
+                                        <span
                                             className="menu-item"
                                         >
                                             <FormattedMessage id="MENU_ITEM1" />
-                                        </a>
+                                        </span>
                                         <a
                                             className="menu-item menu-sub-item"
                                             href={curLanguage === "中文"?"https://shimo.im/docs/v3R86WVVvyWQQRPR/":""}
@@ -145,11 +145,11 @@ export default function Index() {
                                         >
                                             <FormattedMessage id="MENU_ITEM1_2" />
                                         </a>  
-                                        <a
+                                        <span
                                             className="menu-item"
                                         >
                                             <FormattedMessage id="MENU_ITEM2" />
-                                        </a>
+                                        </span>
                                         <a
                                             className="menu-item menu-sub-item"
                                             href={curLanguage === "中文"?"https://shimo.im/docs/YVPKjdCKdg69jX3R/":""}
