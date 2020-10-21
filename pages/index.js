@@ -420,16 +420,24 @@ export default function Index() {
                 </div>
                 <div className="app flex">
                   <div className="app-item">
-                    <span className="app-1"></span>
+                    <a href="https://www.velas.com" target="_blank">
+                      <span className="app-1"></span>
+                    </a>
                   </div>
                   <div className="app-item">
-                    <span className="app-2"></span>
+                    <a href="https://www.peckshield.com" target="_blank">
+                      <span className="app-2"></span>
+                    </a>
                   </div>
                   <div className="app-item">
-                    <span className="app-3"></span>
+                    <a href="https://www.coinpayments.net" target="_blank">
+                      <span className="app-3"></span>
+                    </a>
                   </div>
                   <div className="app-item">
-                    <span className="app-4"></span>
+                    <a href="https://www.alphawallet.com" target="_blank">
+                      <span className="app-4"></span>
+                    </a>
                   </div>
                 </div>
               </div>
