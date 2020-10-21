@@ -50,10 +50,10 @@ export default function Index() {
                                                        <FormattedMessage id="MENU_ITEM1" />
                                                     </Dropdown.Toggle>
                                                     <Dropdown.Menu>
-                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/v3R86WVVvyWQQRPR/":""}>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/v3R86WVVvyWQQRPR/":""} target="_blank">
                                                             <FormattedMessage id="MENU_ITEM1_1" />
                                                         </Dropdown.Item>
-                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/DgHPyCWcr9TR6H6Q/":""}>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/DgHPyCWcr9TR6H6Q/":""} target="_blank">
                                                             <FormattedMessage id="MENU_ITEM1_2" />
                                                         </Dropdown.Item>
                                                     </Dropdown.Menu>
@@ -65,15 +65,15 @@ export default function Index() {
                                                        <FormattedMessage id="MENU_ITEM2" />
                                                     </Dropdown.Toggle>
                                                     <Dropdown.Menu>
-                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/YVPKjdCKdg69jX3R/":""}>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/YVPKjdCKdg69jX3R/":""} target="_blank">
                                                             <FormattedMessage id="MENU_ITEM2_1" />
                                                         </Dropdown.Item>
-                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/Vw5XybChNyk6Ms6g/":""}>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/Vw5XybChNyk6Ms6g/":""} target="_blank">
                                                             <FormattedMessage id="MENU_ITEM2_2" /></Dropdown.Item>
-                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/RxpqvXdPVrhJqwkt/":""}>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/RxpqvXdPVrhJqwkt/":""} target="_blank">
                                                             <FormattedMessage id="MENU_ITEM2_3" />
                                                         </Dropdown.Item>
-                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/rkRYqqgCyYytChdy/":""}>
+                                                        <Dropdown.Item href={curLanguage === "中文"?"https://shimo.im/docs/rkRYqqgCyYytChdy/":""} target="_blank">
                                                             <FormattedMessage id="MENU_ITEM2_4" />
                                                         </Dropdown.Item>
                                                     </Dropdown.Menu>
