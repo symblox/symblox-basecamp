@@ -42,8 +42,8 @@ const en_US = {
   MENU_ITEM2: "How-tos",
   MENU_ITEM2_1: "How to use Mobile Wallet",
   MENU_ITEM2_2: "How to use MetaMask on PC",
-  MENU_ITEM2_3: "How to start the yield farming",
-  MENU_ITEM2_4: "How to profit with farming",
+  MENU_ITEM2_3: "How to start Yield Farming",
+  MENU_ITEM2_4: "How to profit from Farming",
   MENU_ITEM3: "Q&A",
   MENU_ITEM4: "Audit Report",
 };
