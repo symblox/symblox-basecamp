@@ -41,7 +41,7 @@ export default function Index() {
                     <>
                       {" "}
                       <Dropdown className="menu-item">
-                        <Dropdown.Toggle as={"span"} variant="success" id="dropdown-basic">
+                        <Dropdown.Toggle as={"a"} variant="success" id="dropdown-basic">
                           <FormattedMessage id="MENU_ITEM1" />
                         </Dropdown.Toggle>
                         <Dropdown.Menu>
@@ -68,7 +68,7 @@ export default function Index() {
                         </Dropdown.Menu>
                       </Dropdown>
                       <Dropdown className="menu-item">
-                        <Dropdown.Toggle as={"span"} variant="success" id="dropdown-basic">
+                        <Dropdown.Toggle as={"a"} variant="success" id="dropdown-basic">
                           <FormattedMessage id="MENU_ITEM2" />
                         </Dropdown.Toggle>
                         <Dropdown.Menu>

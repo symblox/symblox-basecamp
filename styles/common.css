@@ -172,10 +172,6 @@ footer .r p {
     color: white;
   }
 
-  .dropdown-menu a {
-    color: black;
-  }
-
   .menu-icon {
     display: none;
   }
@@ -229,4 +225,8 @@ footer .r p {
   .menu-icon .fa {
     font-size: 28px;
   }
+}
+
+.dropdown-menu.show {
+  background: black;
 }
