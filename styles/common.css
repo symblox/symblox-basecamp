@@ -79,7 +79,7 @@ button {
 header {
   padding: 32px 0;
   position: relative;
-  z-index: 2;
+  z-index: 10;
 }
 header .hd {
   display: flex;

@@ -163,9 +163,6 @@ export default function Index() {
                       <Dropdown.Item onClick={() => setCurLanguage("中文")}>中</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
-                  <a className="account" onClick={() => setCurLanguage(curLanguage === "中文" ? "EN" : "中文")}>
-                    <button>{curLanguage === "中文" ? "EN" : "中文"}</button>
-                  </a>
                   <a
                     className="menu-icon"
                     onClick={() => {
@@ -174,6 +171,9 @@ export default function Index() {
                   >
                     <i className="fa fa-bars"></i>
                   </a>
+                  {/* <a className="account" onClick={() => setCurLanguage(curLanguage === "中文" ? "EN" : "中文")}>
+                    <button>{curLanguage === "中文" ? "EN" : "中文"}</button>
+                  </a> */}
                 </div>
               </div>
               <div className="mobile-menu-header" style={{ display: isOpen ? "block" : "none" }}>
