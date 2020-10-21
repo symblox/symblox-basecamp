@@ -4,25 +4,40 @@ import { IntlProvider, FormattedMessage } from "react-intl";
 import Dropdown from "react-bootstrap/Dropdown";
 import en_US from "../language/en_US";
 import zh_CN from "../language/zh_CN";
+import es_ES from "../language/es_ES";
 
 export default function Index() {
   const [curLanguage, setCurLanguage] = React.useState();
   const [isOpen, openMenu] = React.useState(false);
 
   useEffect(() => {
+    const browserLang = navigator.language.toLowerCase();
     if (!curLanguage) {
-      if (navigator.language === "zh-CN") {
+      if (browserLang === "zh-cn") {
         setCurLanguage("中文");
+      } else if (browserLang === "es-es") {
+        setCurLanguage("ES");
       } else {
         setCurLanguage("EN");
       }
     }
   });
 
+  const switchLanguage = (lang) => {
+    switch (lang) {
+      case "中文":
+        return zh_CN;
+      case "ES":
+        return es_ES;
+      default:
+        return en_US;
+    }
+  };
+
   return (
     <>
       <Layout>
-        <IntlProvider locale={"en"} messages={curLanguage === "中文" ? zh_CN : en_US}>
+        <IntlProvider locale={"en"} messages={switchLanguage(curLanguage)}>
           <div className="page index">
             <div className="bg">
               <div className="block-1">
@@ -138,6 +153,16 @@ export default function Index() {
                       </a>
                     </>
                   </span>
+                  <Dropdown className="menu-item menu-lang">
+                    <Dropdown.Toggle as={"a"} variant="success" id="dropdown-basic">
+                      <span class="menu-lang-icon"></span>
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item onClick={() => setCurLanguage("EN")}>EN</Dropdown.Item>
+                      <Dropdown.Item onClick={() => setCurLanguage("ES")}>ES</Dropdown.Item>
+                      <Dropdown.Item onClick={() => setCurLanguage("中文")}>中</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
                   <a className="account" onClick={() => setCurLanguage(curLanguage === "中文" ? "EN" : "中文")}>
                     <button>{curLanguage === "中文" ? "EN" : "中文"}</button>
                   </a>
