@@ -153,6 +153,14 @@ export default function Index() {
                       </a>
                     </>
                   </span>
+                  <a
+                    className="menu-icon"
+                    onClick={() => {
+                      openMenu(!isOpen);
+                    }}
+                  >
+                    <i className="fa fa-bars"></i>
+                  </a>
                   <Dropdown className="menu-item menu-lang">
                     <Dropdown.Toggle as={"a"} variant="success" id="dropdown-basic">
                       <span class="menu-lang-icon"></span>
@@ -163,14 +171,7 @@ export default function Index() {
                       <Dropdown.Item onClick={() => setCurLanguage("中文")}>中</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
-                  <a
-                    className="menu-icon"
-                    onClick={() => {
-                      openMenu(!isOpen);
-                    }}
-                  >
-                    <i className="fa fa-bars"></i>
-                  </a>
+                  
                   {/* <a className="account" onClick={() => setCurLanguage(curLanguage === "中文" ? "EN" : "中文")}>
                     <button>{curLanguage === "中文" ? "EN" : "中文"}</button>
                   </a> */}
