@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 250 64" style="enable-background:new 0 0 250 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#Path-9_1_);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:url(#SVGID_1_);}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:none;}
+	.st3{font-family:'CurvedSquare';}
+	.st4{font-size:60px;}
+	.st5{letter-spacing:-12;}
+</style>
+<g id="Group-19" transform="translate(0.000000, 2.727273)">
+	
+		<linearGradient id="Path-9_1_" gradientUnits="userSpaceOnUse" x1="-2303.53" y1="2415.5649" x2="-2302.4966" y2="2416.3691" gradientTransform="matrix(33.6364 0 0 -21.8182 77478.7266 52736.9492)">
+		<stop  offset="0" style="stop-color:#FF3A33"/>
+		<stop  offset="1" style="stop-color:#FC06C6"/>
+	</linearGradient>
+	<polygon id="Path-9" class="st0" points="20.7,13 7.1,30.2 20,30.2 33.6,13 	"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-2303.238" y1="2415.9243" x2="-2302.6758" y2="2416.3928" gradientTransform="matrix(33.6364 0 0 -21.8182 77485.0938 52749.6836)">
+		<stop  offset="0" style="stop-color:#42D9FE"/>
+		<stop  offset="1" style="stop-color:#2872FA"/>
+	</linearGradient>
+	<polygon class="st1" points="25.8,23 12.1,40.3 25,40.3 38.7,23 	"/>
+</g>
+<rect x="37.1" y="12.8" class="st2" width="191.9" height="35.2"/>
+<text transform="matrix(1 0 0 1 37.0615 46.6563)" class="st3 st4 st5">SYMBLOX</text>
+</svg>
