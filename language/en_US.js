@@ -46,6 +46,7 @@ const en_US = {
   MENU_ITEM2_4: "How to Profit From Farming",
   MENU_ITEM3: "Q&A",
   MENU_ITEM4: "Audit Report",
+  MENU_ITEM5: "Governance",
 };
 
 export default en_US;

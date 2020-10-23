@@ -50,6 +50,7 @@ const es_ES = {
   MENU_ITEM2_4: "Cómo beneficiarse del Farming",
   MENU_ITEM3: "Q&A",
   MENU_ITEM4: "Informe de auditoria",
+  MENU_ITEM5: "Gobernancia",
 };
 
 export default es_ES;

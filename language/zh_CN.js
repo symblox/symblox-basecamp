@@ -45,6 +45,6 @@ const zh_CN = {
   MENU_ITEM2_4: "挖矿指导手册",
   MENU_ITEM3: "常见问题回答",
   MENU_ITEM4: "合约审计报告",
+  MENU_ITEM5: "社区治理",
 };
-
 export default zh_CN;

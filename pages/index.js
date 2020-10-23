@@ -55,6 +55,9 @@ export default function Index() {
                   <span className="menu-header">
                     <>
                       {" "}
+                      <a className="menu-item" href="https://sips.symblox.io" target="_blank">
+                        <FormattedMessage id="MENU_ITEM5" />
+                      </a>
                       <Dropdown className="menu-item">
                         <Dropdown.Toggle as={"a"} variant="success" id="dropdown-basic">
                           <FormattedMessage id="MENU_ITEM1" />
@@ -142,11 +145,7 @@ export default function Index() {
                       </a>
                       <a
                         className="menu-item"
-                        href={
-                          curLanguage === "中文"
-                            ? "https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
-                            : "https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
-                        }
+                        href="https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
                         target="_blank"
                       >
                         <FormattedMessage id="MENU_ITEM4" />
@@ -180,6 +179,9 @@ export default function Index() {
               <div className="mobile-menu-header" style={{ display: isOpen ? "block" : "none" }}>
                 <>
                   {" "}
+                  <a className="menu-item" href="https://sips.symblox.io" target="_blank">
+                    <FormattedMessage id="MENU_ITEM5" />
+                  </a>
                   <span className="menu-item">
                     <FormattedMessage id="MENU_ITEM1" />
                   </span>
@@ -265,11 +267,7 @@ export default function Index() {
                   </a>
                   <a
                     className="menu-item"
-                    href={
-                      curLanguage === "中文"
-                        ? "https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
-                        : "https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
-                    }
+                    href="https://github.com/symblox/symblox-yield-farming/blob/master/audit/PeckShield-Audit-Report-Symblox-1.0.pdf"
                     target="_blank"
                   >
                     <FormattedMessage id="MENU_ITEM4" />
