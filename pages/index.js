@@ -91,7 +91,7 @@ export default function Index() {
                             href={
                               curLanguage === "中文"
                                 ? "https://shimo.im/docs/YVPKjdCKdg69jX3R/"
-                                : "https://docs.google.com/document/d/1FnsTQRzOcX9_8pJBw0kMh83yEcnbz1f7Ag1uQlVt2uo/edit"
+                                : "https://symblox.github.io/guides/yield-farming/2020/10/22/symblox-guide-for-mobile"
                             }
                             target="_blank"
                           >
@@ -101,7 +101,7 @@ export default function Index() {
                             href={
                               curLanguage === "中文"
                                 ? "https://shimo.im/docs/Vw5XybChNyk6Ms6g/"
-                                : "https://docs.google.com/document/d/1FnsTQRzOcX9_8pJBw0kMh83yEcnbz1f7Ag1uQlVt2uo/edit"
+                                : "https://symblox.github.io/guides/yield-farming/2020/10/22/symblox-guide-for-pc"
                             }
                             target="_blank"
                           >
@@ -171,7 +171,7 @@ export default function Index() {
                       <Dropdown.Item onClick={() => setCurLanguage("中文")}>中</Dropdown.Item>
                     </Dropdown.Menu>
                   </Dropdown>
-                  
+
                   {/* <a className="account" onClick={() => setCurLanguage(curLanguage === "中文" ? "EN" : "中文")}>
                     <button>{curLanguage === "中文" ? "EN" : "中文"}</button>
                   </a> */}
