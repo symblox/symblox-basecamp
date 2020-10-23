@@ -185,14 +185,22 @@ export default function Index() {
                   </span>
                   <a
                     className="menu-item menu-sub-item"
-                    href={curLanguage === "中文" ? "https://shimo.im/docs/v3R86WVVvyWQQRPR/" : ""}
+                    href={
+                      curLanguage === "中文"
+                        ? "https://shimo.im/docs/v3R86WVVvyWQQRPR/"
+                        : "https://symbloxsyx.medium.com/introducing-symblox-c4e67b33fc9e"
+                    }
                     target="_blank"
                   >
                     <FormattedMessage id="MENU_ITEM1_1" />
                   </a>
                   <a
                     className="menu-item menu-sub-item"
-                    href={curLanguage === "中文" ? "https://shimo.im/docs/DgHPyCWcr9TR6H6Q/" : ""}
+                    href={
+                      curLanguage === "中文"
+                        ? "https://shimo.im/docs/DgHPyCWcr9TR6H6Q/"
+                        : "https://symbloxsyx.medium.com/a-detailed-explanation-of-symblox-yield-farming-8f7ec4b48de8"
+                    }
                     target="_blank"
                   >
                     <FormattedMessage id="MENU_ITEM1_2" />
@@ -202,28 +210,44 @@ export default function Index() {
                   </span>
                   <a
                     className="menu-item menu-sub-item"
-                    href={curLanguage === "中文" ? "https://shimo.im/docs/YVPKjdCKdg69jX3R/" : ""}
+                    href={
+                      curLanguage === "中文"
+                        ? "https://shimo.im/docs/YVPKjdCKdg69jX3R/"
+                        : "https://symblox.github.io/guides/yield-farming/2020/10/22/symblox-guide-for-mobile"
+                    }
                     target="_blank"
                   >
                     <FormattedMessage id="MENU_ITEM2_1" />
                   </a>
                   <a
                     className="menu-item menu-sub-item"
-                    href={curLanguage === "中文" ? "https://shimo.im/docs/Vw5XybChNyk6Ms6g/" : ""}
+                    href={
+                      curLanguage === "中文"
+                        ? "https://shimo.im/docs/Vw5XybChNyk6Ms6g/"
+                        : "https://symblox.github.io/guides/yield-farming/2020/10/22/symblox-guide-for-pc"
+                    }
                     target="_blank"
                   >
                     <FormattedMessage id="MENU_ITEM2_2" />
                   </a>
                   <a
                     className="menu-item menu-sub-item"
-                    href={curLanguage === "中文" ? "https://shimo.im/docs/RxpqvXdPVrhJqwkt/" : ""}
+                    href={
+                      curLanguage === "中文"
+                        ? "https://shimo.im/docs/RxpqvXdPVrhJqwkt/"
+                        : "https://hackmd.io/@Symblox/BkChukUvw"
+                    }
                     target="_blank"
                   >
                     <FormattedMessage id="MENU_ITEM2_3" />
                   </a>
                   <a
                     className="menu-item menu-sub-item"
-                    href={curLanguage === "中文" ? "https://shimo.im/docs/rkRYqqgCyYytChdy/" : ""}
+                    href={
+                      curLanguage === "中文"
+                        ? "https://shimo.im/docs/rkRYqqgCyYytChdy/"
+                        : "https://symbloxsyx.medium.com/symblox-strategy-guide-for-dummies-48e2f516daec"
+                    }
                     target="_blank"
                   >
                     <FormattedMessage id="MENU_ITEM2_4" />
