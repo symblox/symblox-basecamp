@@ -51,6 +51,7 @@ const es_ES = {
   MENU_ITEM3: "Q&A",
   MENU_ITEM4: "Informe de auditoria",
   MENU_ITEM5: "Gobernancia",
+  VOTE: "VOTA AHORA",
 };
 
 export default es_ES;

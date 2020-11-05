@@ -85,10 +85,17 @@ a:hover {
   line-height: 22px;
 }
 .section-1 button {
-  margin-top: 45px;
   font-size: 20px;
   line-height: 25px;
   padding: 15px 30px;
+}
+
+button.action-vote {
+  background: linear-gradient(135deg, #ff3a33 0%, #fc06c6 100%, #ff3a33);
+}
+
+.actions {
+  margin-top: 45px;
 }
 
 .section-2 .text {

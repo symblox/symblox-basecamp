@@ -285,11 +285,18 @@ export default function Index() {
                 <p>
                   <FormattedMessage id="SUBTITLE" />
                 </p>
-                <a className="menu-item" href="https://app.symblox.io/">
-                  <button>
-                    <FormattedMessage id="LAUNCH_APP" />
-                  </button>
-                </a>
+                <div className="actions">
+                  <a className="menu-item" href="https://app.symblox.io/">
+                    <button>
+                      <FormattedMessage id="LAUNCH_APP" />
+                    </button>
+                  </a>
+                  <a className="menu-item" href="https://vote.symblox.io/">
+                    <button className="action-vote">
+                      <FormattedMessage id="VOTE" />
+                    </button>
+                  </a>
+                </div>
               </div>
             </section>
             <section className="section section-2">

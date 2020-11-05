@@ -47,6 +47,7 @@ const en_US = {
   MENU_ITEM3: "Q&A",
   MENU_ITEM4: "Audit Report",
   MENU_ITEM5: "Governance",
+  VOTE: "VOTE NOW",
 };
 
 export default en_US;

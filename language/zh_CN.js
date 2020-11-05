@@ -1,5 +1,5 @@
 const zh_CN = {
-  LAUNCH_APP: "打开 DAPP 应用",
+  LAUNCH_APP: "打开应用",
   TITLE: "连接现实资产",
   TITLE2: "到区块链世界的桥梁",
   SUBTITLE: "Symblox 是一个区块链上的去中心化合成资产发行和交易协议。",
@@ -46,5 +46,6 @@ const zh_CN = {
   MENU_ITEM3: "常见问题回答",
   MENU_ITEM4: "合约审计报告",
   MENU_ITEM5: "社区治理",
+  VOTE: "开始投票",
 };
 export default zh_CN;
