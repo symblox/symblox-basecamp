@@ -479,7 +479,7 @@ export default function Index() {
                 </div>
                 <div className="app flex">
                   <div className="app-item">
-                    <a href="itms-services://?action=download-manifest&url=https://symblox.io/manifest.plist">
+                    <a href="https://testflight.apple.com/join/8Viprec2">
                       <span className="app-1"></span>
                     </a>
                   </div>
