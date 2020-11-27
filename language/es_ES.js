@@ -52,6 +52,8 @@ const es_ES = {
   MENU_ITEM4: "Informe de auditoria",
   MENU_ITEM5: "Gobernancia",
   VOTE: "VOTA AHORA",
+  MINING_APP: "Open Yield Farming",
+  XCHAIN_APP: "Open Cross-chain",
 };
 
 export default es_ES;

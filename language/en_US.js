@@ -48,6 +48,8 @@ const en_US = {
   MENU_ITEM4: "Audit Report",
   MENU_ITEM5: "Governance",
   VOTE: "VOTE NOW",
+  MINING_APP: "Open Yield Farming",
+  XCHAIN_APP: "Open Cross-chain",
 };
 
 export default en_US;

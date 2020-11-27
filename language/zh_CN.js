@@ -47,5 +47,7 @@ const zh_CN = {
   MENU_ITEM4: "合约审计报告",
   MENU_ITEM5: "社区治理",
   VOTE: "开始投票",
+  MINING_APP: "流动性挖矿",
+  XCHAIN_APP: "资产跨链",
 };
 export default zh_CN;

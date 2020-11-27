@@ -162,7 +162,7 @@ export default function Index() {
                   </a>
                   <Dropdown className="menu-item menu-lang">
                     <Dropdown.Toggle as={"a"} variant="success" id="dropdown-basic">
-                      <span class="menu-lang-icon"></span>
+                      <span className="menu-lang-icon"></span>
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
                       <Dropdown.Item onClick={() => setCurLanguage("EN")}>EN</Dropdown.Item>
@@ -288,14 +288,19 @@ export default function Index() {
                 <div className="actions">
                   <a className="menu-item" href="https://app.symblox.io/">
                     <button>
-                      <FormattedMessage id="LAUNCH_APP" />
+                      <FormattedMessage id="MINING_APP" />
                     </button>
                   </a>
-                  <a className="menu-item" href="https://vote.symblox.io/">
+                  <a className="menu-item" href="https://x.symblox.io/">
+                    <button className="action-vote">
+                      <FormattedMessage id="XCHAIN_APP" />
+                    </button>
+                  </a>
+                  {/* <a className="menu-item" href="https://vote.symblox.io/">
                     <button className="action-vote">
                       <FormattedMessage id="VOTE" />
                     </button>
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </section>
