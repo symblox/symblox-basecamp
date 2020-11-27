@@ -130,6 +130,16 @@ export default function Index() {
                           >
                             <FormattedMessage id="MENU_ITEM2_4" />
                           </Dropdown.Item>
+                          <Dropdown.Item
+                            href={
+                              curLanguage === "中文"
+                                ? "https://shimo.im/docs/Q5BNIEBFX10apcX3"
+                                : "https://github.com/symblox/symblox.github.io/blob/master/_posts/2020-11-27-crosschain-guide-for-mobile.md"
+                            }
+                            target="_blank"
+                          >
+                            <FormattedMessage id="MENU_ITEM2_5" />
+                          </Dropdown.Item>
                         </Dropdown.Menu>
                       </Dropdown>
                       <a
@@ -253,6 +263,17 @@ export default function Index() {
                     target="_blank"
                   >
                     <FormattedMessage id="MENU_ITEM2_4" />
+                  </a>
+                  <a
+                    className="menu-item menu-sub-item"
+                    href={
+                      curLanguage === "中文"
+                        ? "https://shimo.im/docs/Q5BNIEBFX10apcX3"
+                        : "https://github.com/symblox/symblox.github.io/blob/master/_posts/2020-11-27-crosschain-guide-for-mobile.md"
+                    }
+                    target="_blank"
+                  >
+                    <FormattedMessage id="MENU_ITEM2_5" />
                   </a>
                   <a
                     className="menu-item"

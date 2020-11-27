@@ -44,6 +44,7 @@ const en_US = {
   MENU_ITEM2_2: "How to Use MetaMask on PC",
   MENU_ITEM2_3: "How to Start Yield Farming",
   MENU_ITEM2_4: "How to Profit From Farming",
+  MENU_ITEM2_5: "How to deposit/withraw USDT",
   MENU_ITEM3: "Q&A",
   MENU_ITEM4: "Audit Report",
   MENU_ITEM5: "Governance",
