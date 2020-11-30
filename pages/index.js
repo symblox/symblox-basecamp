@@ -313,15 +313,15 @@ export default function Index() {
                     </button>
                   </a>
                   <a className="menu-item" href="https://x.symblox.io/">
-                    <button className="action-vote">
+                    <button className="action">
                       <FormattedMessage id="XCHAIN_APP" />
                     </button>
                   </a>
-                  {/* <a className="menu-item" href="https://vote.symblox.io/">
+                  <a className="menu-item" href="https://vote.symblox.io/">
                     <button className="action-vote">
                       <FormattedMessage id="VOTE" />
                     </button>
-                  </a> */}
+                  </a>
                 </div>
               </div>
             </section>
