@@ -5,7 +5,7 @@ const zh_CN = {
   SUBTITLE: "Symblox 是一个区块链上的去中心化合成资产发行和交易协议。",
   CONTENT_TITLE: "为什么选择真实资产",
   CONTENT_TEXT:
-    "区块链帮助无法参与全球金融市场的任何人，都有机会通过合成资产访问这些金融工具。区块链上的合成资产使得任何人可触及包括，加密货币（如 Bitoin，Zcash），法定货币（如 USD，YEN），商品（如黄金，原油），股票期货（如 AAPL，TESLA）等资产",
+    "区块链帮助无法参与全球金融市场的任何人，都有机会通过合成资产访问这些金融工具。区块链上的合成资产使得任何人可触及包括，加密货币（如 Bitcoin，Zcash），法定货币（如 USD，YEN），商品（如黄金，原油），股票期货（如 AAPL，TESLA）等资产",
   CONTENT2_TITLE: "为什么选择Symblox",
   CONTENT2_ITEM1_TITLE: "易如反掌",
   CONTENT2_ITEM1_TEXT: "先抵押 Stake，再发行 Mint，任何人就可以在世界最大的金融市场上进行交易",

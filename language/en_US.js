@@ -5,7 +5,7 @@ const en_US = {
   SUBTITLE: "Symblox is a decentralized synthetic asset issuance and trading protocol on the blockchain.",
   CONTENT_TITLE: "Why Real-World Assets",
   CONTENT_TEXT:
-    "Blockchain enables anyone without access to the global financial markets an opportunity to access these financial instruments through synthetic assets. Thus, providing exposure to assets such as cryptos (Bitoin, Zcash), fiat currencies (USD, YEN), commodities (Gold, Crude Oil), stocks and indexes (AAPL, TESLA) etc. on the blockchain.",
+    "Blockchain enables anyone without access to the global financial markets an opportunity to access these financial instruments through synthetic assets. Thus, providing exposure to assets such as cryptos (Bitcoin, Zcash), fiat currencies (USD, YEN), commodities (Gold, Crude Oil), stocks and indexes (AAPL, TESLA) etc. on the blockchain.",
   CONTENT2_TITLE: "Why Symblox",
   CONTENT2_ITEM1_TITLE: "Easy as 1, 2, 3...",
   CONTENT2_ITEM1_TEXT: "Just Stake, Mint and you’re ready to trade in the biggest financial markets in the world!",

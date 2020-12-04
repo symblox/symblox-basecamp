@@ -6,7 +6,7 @@ const es_ES = {
     "Symblox es un protocolo descentralizado de negociación y emisión de activos sintéticos en la cadena de bloques.",
   CONTENT_TITLE: "Por qué los activos del mundo real",
   CONTENT_TEXT:
-    "La blockchain permite que cualquier persona sin acceso a los mercados financieros globales tenga la oportunidad de acceder a estos instrumentos financieros a través de activos sintéticos. Por lo tanto, brinda exposición a activos como criptos (Bitoin, Zcash), monedas fiduciarias (USD, YEN), materias primas (oro, petróleo crudo), acciones e índices (AAPL, TESLA), etc.en la cadena de bloques..",
+    "La blockchain permite que cualquier persona sin acceso a los mercados financieros globales tenga la oportunidad de acceder a estos instrumentos financieros a través de activos sintéticos. Por lo tanto, brinda exposición a activos como criptos (Bitcoin, Zcash), monedas fiduciarias (USD, YEN), materias primas (oro, petróleo crudo), acciones e índices (AAPL, TESLA), etc.en la cadena de bloques..",
   CONTENT2_TITLE: "Por qué Symblox",
   CONTENT2_ITEM1_TITLE: "Tan fácil como 1, 2, 3...",
   CONTENT2_ITEM1_TEXT:
