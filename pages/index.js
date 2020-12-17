@@ -505,7 +505,7 @@ export default function Index() {
                 </div>
                 <div className="app flex">
                   <div className="app-item">
-                    <a href="https://testflight.apple.com/join/8Viprec2">
+                    <a href="https://testflight.apple.com/join/B2Kr95Fg">
                       <span className="app-1"></span>
                     </a>
                   </div>
