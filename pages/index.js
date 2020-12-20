@@ -77,7 +77,7 @@ export default function Index() {
                             href={
                               curLanguage === "中文"
                                 ? "https://shimo.im/docs/EvYGuWnLTiUrXLIx/"
-                                : "https://symbloxsyx.medium.com/a-detailed-explanation-of-symblox-yield-farming-8f7ec4b48de8"
+                                : "https://symbloxsyx.medium.com/symblox-yield-farming-2-0-e9f3128680bd"
                             }
                             target="_blank"
                           >
@@ -211,7 +211,7 @@ export default function Index() {
                     href={
                       curLanguage === "中文"
                         ? "https://shimo.im/docs/EvYGuWnLTiUrXLIx/"
-                        : "https://symbloxsyx.medium.com/a-detailed-explanation-of-symblox-yield-farming-8f7ec4b48de8"
+                        : "https://symbloxsyx.medium.com/symblox-yield-farming-2-0-e9f3128680bd"
                     }
                     target="_blank"
                   >
