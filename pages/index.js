@@ -510,7 +510,7 @@ export default function Index() {
                     </a>
                   </div>
                   <div className="app-item">
-                    <a href="/velas-defi-wallet-1126.apk" target="_blank">
+                    <a href="/defi-wallet-1221.apk" target="_blank">
                       <span className="app-2"></span>
                     </a>
                   </div>
