@@ -140,6 +140,16 @@ export default function Index() {
                           >
                             <FormattedMessage id="MENU_ITEM2_5" />
                           </Dropdown.Item>
+                          <Dropdown.Item
+                            href={
+                              curLanguage === "中文"
+                                ? "https://shimo.im/docs/ChSHzR8yPq4S0phP"
+                                : "https://github.com/symblox/symblox.github.io/blob/master/_posts/2020-11-27-crosschain-guide-for-mobile.md"
+                            }
+                            target="_blank"
+                          >
+                            <FormattedMessage id="MENU_ITEM2_6" />
+                          </Dropdown.Item>
                         </Dropdown.Menu>
                       </Dropdown>
                       <a
@@ -276,11 +286,22 @@ export default function Index() {
                     <FormattedMessage id="MENU_ITEM2_5" />
                   </a>
                   <a
+                    className="menu-item menu-sub-item"
+                    href={
+                      curLanguage === "中文"
+                        ? "https://shimo.im/docs/Q5BNIEBFX10apcX3"
+                        : "https://github.com/symblox/symblox.github.io/blob/master/_posts/2020-11-27-crosschain-guide-for-mobile.md"
+                    }
+                    target="_blank"
+                  >
+                    <FormattedMessage id="MENU_ITEM2_6" />
+                  </a>
+                  <a
                     className="menu-item"
                     href={
                       curLanguage === "中文"
-                        ? "https://shimo.im/docs/3jppqrHD6WhQ98Dv/"
-                        : "https://hackmd.io/@Symblox/BkGxZBNwv"
+                        ? "https://shimo.im/docs/ChSHzR8yPq4S0phP"
+                        : "https://github.com/symblox/symblox.github.io/blob/master/_posts/2020-11-27-crosschain-guide-for-mobile.md"
                     }
                     target="_blank"
                   >
@@ -315,6 +336,11 @@ export default function Index() {
                   <a className="menu-item" href="https://x.symblox.io/">
                     <button className="action">
                       <FormattedMessage id="XCHAIN_APP" />
+                    </button>
+                  </a>
+                  <a className="menu-item" href="https://pvlx.symblox.io/">
+                    <button className="action">
+                      <FormattedMessage id="PVLX_APP" />
                     </button>
                   </a>
                   <a className="menu-item" href="https://vote.symblox.io/">

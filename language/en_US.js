@@ -45,12 +45,14 @@ const en_US = {
   MENU_ITEM2_3: "How to Start Yield Farming",
   MENU_ITEM2_4: "How to Profit From Farming",
   MENU_ITEM2_5: "How to deposit/withraw USDT",
+  MENU_ITEM2_6: "How to Use pVLX",
   MENU_ITEM3: "Q&A",
   MENU_ITEM4: "Audit Report",
   MENU_ITEM5: "Governance",
   VOTE: "VOTE NOW",
   MINING_APP: "Open Yield Farming",
   XCHAIN_APP: "Open Cross-chain",
+  PVLX_APP: "PVLX No-Loss Mining",
 };
 
 export default en_US;

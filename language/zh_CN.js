@@ -44,11 +44,13 @@ const zh_CN = {
   MENU_ITEM2_3: "挖矿产品使用指南",
   MENU_ITEM2_4: "挖矿新手教程",
   MENU_ITEM2_5: "资产跨链使用指南",
+  MENU_ITEM2_6: "pVLX 无损挖矿指南",
   MENU_ITEM3: "常见问题回答",
   MENU_ITEM4: "合约审计报告",
   MENU_ITEM5: "社区治理",
   VOTE: "开始投票",
   MINING_APP: "流动性挖矿",
   XCHAIN_APP: "资产跨链",
+  PVLX_APP: "PVLX 无损挖矿",
 };
 export default zh_CN;
