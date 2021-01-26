@@ -76,7 +76,7 @@ export default function Index() {
                           <Dropdown.Item
                             href={
                               curLanguage === "中文"
-                                ? "https://shimo.im/docs/EvYGuWnLTiUrXLIx/"
+                                ? "https://shimo.im/docs/diby5RZUVQUJyGHn/"
                                 : "https://symbloxsyx.medium.com/symblox-yield-farming-2-0-e9f3128680bd"
                             }
                             target="_blank"
@@ -220,7 +220,7 @@ export default function Index() {
                     className="menu-item menu-sub-item"
                     href={
                       curLanguage === "中文"
-                        ? "https://shimo.im/docs/EvYGuWnLTiUrXLIx/"
+                        ? "https://shimo.im/docs/diby5RZUVQUJyGHn/"
                         : "https://symbloxsyx.medium.com/symblox-yield-farming-2-0-e9f3128680bd"
                     }
                     target="_blank"
