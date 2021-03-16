@@ -67,7 +67,7 @@ export default function Index() {
                             href={
                               curLanguage === "中文"
                                 ? "https://shimo.im/docs/v3R86WVVvyWQQRPR/"
-                                : "https://symbloxsyx.medium.com/introducing-symblox-c4e67b33fc9e"
+                                : "https://symblox.medium.com/introducing-symblox-c4e67b33fc9e"
                             }
                             target="_blank"
                           >
@@ -77,7 +77,7 @@ export default function Index() {
                             href={
                               curLanguage === "中文"
                                 ? "https://shimo.im/docs/diby5RZUVQUJyGHn/"
-                                : "https://symbloxsyx.medium.com/symblox-yield-farming-2-0-e9f3128680bd"
+                                : "https://symblox.medium.com/symblox-yield-farming-2-0-e9f3128680bd"
                             }
                             target="_blank"
                           >
@@ -124,7 +124,7 @@ export default function Index() {
                             href={
                               curLanguage === "中文"
                                 ? "https://shimo.im/docs/rkRYqqgCyYytChdy/"
-                                : "https://symbloxsyx.medium.com/symblox-strategy-guide-for-dummies-48e2f516daec"
+                                : "https://symblox.medium.com/symblox-strategy-guide-for-dummies-48e2f516daec"
                             }
                             target="_blank"
                           >
@@ -210,7 +210,7 @@ export default function Index() {
                     href={
                       curLanguage === "中文"
                         ? "https://shimo.im/docs/v3R86WVVvyWQQRPR/"
-                        : "https://symbloxsyx.medium.com/introducing-symblox-c4e67b33fc9e"
+                        : "https://symblox.medium.com/introducing-symblox-c4e67b33fc9e"
                     }
                     target="_blank"
                   >
@@ -221,7 +221,7 @@ export default function Index() {
                     href={
                       curLanguage === "中文"
                         ? "https://shimo.im/docs/diby5RZUVQUJyGHn/"
-                        : "https://symbloxsyx.medium.com/symblox-yield-farming-2-0-e9f3128680bd"
+                        : "https://symblox.medium.com/symblox-yield-farming-2-0-e9f3128680bd"
                     }
                     target="_blank"
                   >
@@ -268,7 +268,7 @@ export default function Index() {
                     href={
                       curLanguage === "中文"
                         ? "https://shimo.im/docs/rkRYqqgCyYytChdy/"
-                        : "https://symbloxsyx.medium.com/symblox-strategy-guide-for-dummies-48e2f516daec"
+                        : "https://symblox.medium.com/symblox-strategy-guide-for-dummies-48e2f516daec"
                     }
                     target="_blank"
                   >
